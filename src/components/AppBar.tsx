@@ -14,7 +14,6 @@ import HomeIcon from '@mui/icons-material/Home';
 
 import {ColorModeContext} from '../context';
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import ListIcon from '@mui/icons-material/List';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import { PrivateRoutes, PublicRoutes} from '../models';
 import { useNavigate } from 'react-router-dom';

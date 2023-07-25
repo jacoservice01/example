@@ -1,5 +1,5 @@
 import { ImageList, ImageListItem, Typography, Grid, Box } from "@mui/material";
-import { LayoutContainer, LayoutContainer2 } from "../../../styled-components";
+import { LayoutContainer} from "../../../styled-components";
 import jaco1 from '../../../assets/jaco1.png';
 import jaco2 from '../../../assets/jaco2.png';
 import jaco3 from '../../../assets/jaco3.jpeg';
@@ -65,7 +65,7 @@ function Home() {
 
         //}
         setSize(ddd(window.innerWidth));
-      console.log(ddd(window.innerWidth));
+      //console.log(ddd(window.innerWidth));
       
       /*if (window.innerWidth > 1023) {
           setSize(3);   
@@ -84,11 +84,11 @@ function Home() {
       Hello, my name is Ruben.
     </Typography>
     <Typography variant="h6" gutterBottom>
-    I am a web and mobile developer, I have experience in android java, react js, react native and node express for backend. Can you see the code for this page at <a href="https://github.com/ruben6b19/react-example" target="_blank">https://github.com/ruben6b19/react-example</a>
+    I am a web and mobile developer, I have experience in android java, react js, react native and node express for backend. Can you see the code for this page at <a href="https://github.com/ruben6b19/react-example" rel="noreferrer" target="_blank">https://github.com/ruben6b19/react-example</a>
     
     </Typography>
     <Typography variant="h6" gutterBottom>
-      Can you see my last personal project bellow, can you download my app at <a href="https://play.google.com/store/apps/details?id=com.jacoservice.customer" target="_blank">JacoService</a>    
+      Can you see my last personal project bellow, can you download my app at <a href="https://play.google.com/store/apps/details?id=com.jacoservice.customer" rel="noreferrer" target="_blank">JacoService</a>    
     </Typography>
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
