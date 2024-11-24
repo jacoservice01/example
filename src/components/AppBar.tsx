@@ -69,9 +69,9 @@ function AppBarMenu({ mode }: Props) {
     
     <>
       <Box sx={{ flexGrow: 1, marginBottom: 3}}>
-        <AppBar position="fixed" > 
+        <AppBar position="fixed"  > 
           <BottomNavigation
-            sx={{justifyContent: "start",}}            
+            sx={{justifyContent: "center",}}            
             value={value}
             onChange={(event, newValue) => {
               console.log(newValue)

@@ -17,6 +17,7 @@ import { AuthGuard} from './guards';
 
 
 const Login = lazy(() => import('./pages/Login/Login'));
+const DeleteAccount = lazy(() => import('./pages/DeleteAccount/DeleteAccount'));
 const Private = lazy(() => import('./pages/Private/Private'));
 
 export enum themePalette{
@@ -79,6 +80,7 @@ function App() {
                   <AppBarMenu mode={mode} />    
                   <RoutesWithNotFound>
                     <Route path="/" element={<Navigate to={PrivateRoutes.PRIVATE} />} />
+                    <Route path={PublicRoutes.DELETE_ACCOUNT} element={<DeleteAccount />} />
                     <Route path={PublicRoutes.LOGIN} element={<Login />} />
                     <Route element={<AuthGuard privateValidation={true} />}>
                       <Route path={`${PrivateRoutes.PRIVATE}/*`} element={<Private />} />

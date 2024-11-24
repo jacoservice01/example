@@ -35,7 +35,7 @@ export const getCharacter = (page: Number) => {
 
 export const sendMail = (data: Object) => {
   const controller = loadAbort();
-  return { call: axios.post<Character>('https://jacoservice-production.up.railway.app/api/sendMail',data, { signal: controller.signal }), controller };
+  return { call: axios.post<Character>('https://pedidos.fly.dev/api/sendMail',data, { signal: controller.signal }), controller };
 };
 
 export const getMoviesByName = (s: string, page: Number) => {
