@@ -118,8 +118,8 @@ function Home() {
         Si deseas eliminar definitivamente tu cuenta, deja aqui tu correo con el que subscribiste, los datos se eliminaran en un plazo de 90 dias<br/>
         <h4>Datos a eliminar</h4>
         <ul>
-            <li>Se eliminara la direccion y ubicacion que proporcionaste para realizar tus pedidos</li>
-            <li>Tambien se eliminara los mensajes de chat de la aplicacion</li>
+            <li>Se eliminara la direccion y ubicación que proporcionaste para realizar tus pedidos</li>
+            <li>Tambien se eliminara los mensajes de chat que hiciste al usar la aplicacion</li>
         </ul>
         <h4>Datos a conservar:</h4>
         <ul>
