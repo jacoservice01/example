@@ -60,8 +60,8 @@ function DeleteAccount() {
 
   return (
   <LayoutContainer>
-    <Typography variant="h4" sx={{textAlign: "center"}} gutterBottom>
-        Eliminacion de cuenta
+    <Typography variant="h3" sx={{textAlign: "center"}} gutterBottom>
+        Jacoservice
     </Typography>
     <img
         src={`${jaco}?w=161&fit=crop&auto=format`}
@@ -70,8 +70,9 @@ function DeleteAccount() {
         alt={"jacoservice"}
         loading="lazy"
     />
+    <h2>Informacion para eliminar cuenta de nuestra aplicación</h2>
     <Typography variant="h6" gutterBottom>
-        Si deseas eliminar definitivamente tu cuenta, deja aqui tu correo con el que te subscribiste, los datos se eliminaran en un plazo de 90 dias<br/>
+        Si deseas eliminar definitivamente tu cuenta, deja aqui tu correo con el que te subscribiste, los datos se eliminaran en un plazo de 30 dias<br/>
         <h4>Datos a eliminar</h4>
         <ul>
             <li>Se eliminara la direccion y ubicación que proporcionaste para realizar tus pedidos</li>
