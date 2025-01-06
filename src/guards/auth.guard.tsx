@@ -20,7 +20,7 @@ export const AuthGuard = ({ privateValidation }: Props) => {
       PublicValidationFragment
     )
   ) : (
-    <Navigate replace to={PublicRoutes.DELETE_ACCOUNT} />
+    <Navigate replace to={PublicRoutes.LOGIN} />
   );
 };
 
